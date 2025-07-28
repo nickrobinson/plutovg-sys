@@ -18,7 +18,6 @@ fn main() {
         .file("vendor/plutovg/source/plutovg-ft-raster.c")
         .file("vendor/plutovg/source/plutovg-ft-stroker.c")
         .file("vendor/plutovg/source/plutovg-ft-math.c")
-        .file("vendor/plutovg/source/plutovg-surface.c")
         .include("vendor/plutovg/include")
         .include("vendor/plutovg/source")
         .warnings(false)
