@@ -1,0 +1,16 @@
+[package]
+name = "plutovg-sys"
+version = "0.0.1"
+edition = "2024"
+authors = ["Nick Robinson <nick@nrobinson.org>"]
+description = "FFI bindings to PlutoBG, a 2D vector graphics library"
+license = "MIT"
+repository = "https://githbub.com/nickrobinson/plutovg-sys"
+categories = ["external-ffi-bindings", "graphics"]
+keywords = ["plutovg", "vector-graphics", "ffi"]
+
+[dependencies]
+
+[build-dependencies]
+bindgen = "0.72.0"
+cc = "1.0"
