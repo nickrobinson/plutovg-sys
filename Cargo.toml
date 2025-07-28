@@ -3,11 +3,13 @@ name = "plutovg-sys"
 version = "0.0.1"
 edition = "2024"
 authors = ["Nick Robinson <nick@nrobinson.org>"]
-description = "FFI bindings to PlutoBG, a 2D vector graphics library"
+description = "Low-level bindings to the PlutoVG vector graphics library"
 license = "MIT"
 repository = "https://githbub.com/nickrobinson/plutovg-sys"
 categories = ["external-ffi-bindings", "graphics"]
-keywords = ["plutovg", "vector-graphics", "ffi"]
+keywords = ["graphics", "vector", "svg", "rendering", "ffi"]
+documentation = "https://docs.rs/plutovg-sys"
+readme = "README.md"
 
 [dependencies]
 
